@@ -1,0 +1,101 @@
+.rocket-div {
+  width: 100%;
+  height: 100%;
+  margin-left: 25rem;
+  margin-bottom: 5rem;
+}
+
+.rocket-div img {
+  width: 150px;
+  height: 150px;
+}
+.rocket {
+  animation: rocket 4s ease-in-out 0.5s infinite alternate forwards;
+}
+.logo {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  margin: 1rem;
+  cursor: pointer;
+}
+.logo__github img {
+  width: 37px;
+  height: 37px;
+}
+.logo__github {
+  margin-top: 0.4rem;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translateX(1100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 1500px) {
+  .rocket-div {
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+  }
+  @keyframes rocket {
+    50% {
+      transform: translateX(900px);
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .rocket-div {
+    margin-left: 4rem;
+    margin-bottom: 10rem;
+  }
+  @keyframes rocket {
+    50% {
+      transform: translateX(800px);
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .rocket-div {
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+  }
+  @keyframes rocket {
+    50% {
+      transform: translateX(600px);
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .rocket-div {
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+  }
+  @keyframes rocket {
+    50% {
+      transform: translateX(400px);
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .rocket-div {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  @keyframes rocket {
+    50% {
+      transform: translateX(160px);
+    }
+  }
+}
