@@ -27,6 +27,7 @@ import bank from "../assets/bank.png";
 import gpt from "../assets/gpt.png";
 import rick from "../assets/rick.png";
 import weather from "../assets/weather.png";
+import netflix from "../assets/netflix.png";
 
 import githublogo from "../assets/github-logo.png";
 import instagram from "../assets/instagram.png";
@@ -59,6 +60,7 @@ export {
   bank,
   gpt,
   weather,
+  netflix,
   githublogo,
   instagram,
   linkedin,
