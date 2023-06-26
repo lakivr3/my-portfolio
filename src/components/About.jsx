@@ -45,10 +45,10 @@ const About = () => {
       >
         Passionate and dedicated frontend developer with a keen eye for detail
         and a strong commitment to delivering high-quality user experiences.
-        Skilled in HTML, CSS, JavaScript, React, Three.js, I strive to create
-        visually appealing and responsive websites that engage and delight
-        users. Constantly seeking opportunities to learn and grow in the
-        ever-evolving field of frontend development.
+        Skilled in HTML, CSS, JavaScript, React, Three.js, Bootstrap, Tailwind.
+        I strive to create visually appealing and responsive websites that
+        engage and delight users. Constantly seeking opportunities to learn and
+        grow in the ever-evolving field of frontend development.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => {
