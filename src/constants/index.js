@@ -67,7 +67,7 @@ const projects = [
       },
     ],
     image: netflix,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lakivr3/netflix-clone",
   },
   {
     name: "Restoraunt App",
@@ -82,7 +82,7 @@ const projects = [
       },
     ],
     image: restoraunt,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lakivr3/restoraunt",
   },
   {
     name: "Bank App",
@@ -101,7 +101,7 @@ const projects = [
       },
     ],
     image: bank,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lakivr3/bank-app",
   },
   {
     name: "GPT-3 App",
@@ -117,7 +117,7 @@ const projects = [
       },
     ],
     image: gpt,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lakivr3/gpt-app",
   },
   {
     name: "Weather App",
@@ -136,7 +136,7 @@ const projects = [
       },
     ],
     image: weather,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lakivr3/weather",
   },
   {
     name: "Rick & Morty WiKi",
@@ -156,7 +156,7 @@ const projects = [
       },
     ],
     image: rick,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lakivr3/react-wiki",
   },
 ];
 
