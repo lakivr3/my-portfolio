@@ -13,6 +13,7 @@ import gpt from "../assets/gpt.png";
 import rick from "../assets/rick.png";
 import weather from "../assets/weather.png";
 import netflix from "../assets/netflix.png";
+import mycubeimg from "../assets/mycubeimg.png";
 
 import githublogo from "../assets/github-logo.png";
 import instagram from "../assets/instagram.png";
@@ -33,6 +34,7 @@ export {
   gpt,
   weather,
   netflix,
+  mycubeimg,
   githublogo,
   instagram,
   linkedin,

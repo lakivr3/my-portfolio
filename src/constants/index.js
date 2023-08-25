@@ -9,6 +9,7 @@ import {
   rick,
   weather,
   netflix,
+  mycubeimg,
 } from "../assets";
 
 export const navLinks = [
@@ -46,6 +47,27 @@ const services = [
 ];
 
 const projects = [
+  {
+    name: "MyCube - ECommerce",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    link: "https://mycube-ecommerce.vercel.app/",
+    image: mycubeimg,
+    source_code_link: "https://github.com/lakivr3/mycube-ecommerce",
+  },
   {
     name: "Netflix Clone",
     tags: [
