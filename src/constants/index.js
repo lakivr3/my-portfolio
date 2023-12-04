@@ -88,6 +88,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://netflix-clone-tado.vercel.app",
     image: netflix,
     source_code_link: "https://github.com/lakivr3/netflix-clone",
   },
@@ -103,6 +104,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://restoraunt-tado.vercel.app",
+
     image: restoraunt,
     source_code_link: "https://github.com/lakivr3/restoraunt",
   },
@@ -122,25 +125,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://bank-app-tado.vercel.app",
+
     image: bank,
     source_code_link: "https://github.com/lakivr3/bank-app",
   },
-  {
-    name: "GPT-3 App",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
 
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gpt,
-    source_code_link: "https://github.com/lakivr3/gpt-app",
-  },
   {
     name: "Weather App",
     tags: [
@@ -157,6 +147,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://weather-lyart.vercel.app",
+
     image: weather,
     source_code_link: "https://github.com/lakivr3/weather",
   },
