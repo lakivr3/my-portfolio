@@ -97,17 +97,25 @@ const projects = [
     name: "MyCube - ECommerce",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "green-text-gradient",
       },
+      {
+        name: "sql",
+        color: "blue-text-gradient",
+      },
 
       {
         name: "three.js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "blue-text-gradient",
       },
     ],
     video: "MyCubePreview_vsuirx.mp4",
@@ -184,7 +192,7 @@ const projects = [
 
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -194,6 +202,10 @@ const projects = [
       {
         name: "css",
         color: "pink-text-gradient",
+      },
+      {
+        name: "tanstack",
+        color: "orange-text-gradient",
       },
     ],
     image: rick,
