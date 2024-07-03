@@ -46,8 +46,8 @@ const About = () => {
         and a strong commitment to delivering high-quality user experiences. I
         strive to create visually appealing and responsive websites and mobile
         applications that engage and delight users. Constantly seeking
-        opportunities to learn and grow in the ever-evolving field of frontend
-        development.
+        opportunities to learn and grow in the ever-evolving field of both
+        frontend and mobile development.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => {
