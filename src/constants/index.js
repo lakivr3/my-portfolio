@@ -105,7 +105,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "sql",
+        name: "prisma",
         color: "blue-text-gradient",
       },
 
