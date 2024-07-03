@@ -5,11 +5,14 @@ import {
   web,
   restoraunt,
   bank,
-  gpt,
   rick,
   weather,
   netflix,
   mycubeimg,
+  typescript,
+  tailwind,
+  three,
+  next,
 } from "../assets";
 
 export const navLinks = [
@@ -37,12 +40,55 @@ const services = [
     icon: mobile,
   },
   {
+    title: "Tailwind",
+    icon: tailwind,
+  },
+  {
     title: "JavaScript",
     icon: backend,
   },
   {
-    title: "ReactJS",
+    title: "TypeScript",
+    icon: typescript,
+  },
+  {
+    title: "React.js",
     icon: creator,
+  },
+  {
+    title: "Next.js",
+    icon: next,
+  },
+  {
+    title: "React Native",
+    icon: creator,
+  },
+  {
+    title: "Three.js",
+    icon: three,
+  },
+];
+const reactnative = [
+  {
+    name: "Meals - React Native App",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      { name: "auth", color: "orange-text-gradient" },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: "Meals_pkm4vd.mp4",
+    image: bank,
+    source_code_link: "https://github.com/lakivr3/MealsReactNative",
   },
 ];
 
@@ -64,9 +110,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    video: "MyCubePreview_vsuirx.mp4",
     link: "https://mycube-ecommerce.vercel.app/",
     image: mycubeimg,
-    source_code_link: "https://github.com/lakivr3/mycube-ecommerce",
+    source_code_link: "https://github.com/lakivr3/mycubeV2",
   },
   {
     name: "Netflix Clone",
@@ -88,6 +135,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    video: "Netflix_kv7czk.mp4",
     link: "https://netflix-clone-tado.vercel.app",
     image: netflix,
     source_code_link: "https://github.com/lakivr3/netflix-clone",
@@ -105,30 +153,9 @@ const projects = [
       },
     ],
     link: "https://restoraunt-tado.vercel.app",
-
+    video: "Restourant_a0vnwl.mp4",
     image: restoraunt,
     source_code_link: "https://github.com/lakivr3/restoraunt",
-  },
-  {
-    name: "Bank App",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    link: "https://bank-app-tado.vercel.app",
-
-    image: bank,
-    source_code_link: "https://github.com/lakivr3/bank-app",
   },
 
   {
@@ -148,12 +175,12 @@ const projects = [
       },
     ],
     link: "https://weather-lyart.vercel.app",
-
+    video: "Weather_inyjbw",
     image: weather,
     source_code_link: "https://github.com/lakivr3/weather",
   },
   {
-    name: "Rick & Morty WiKi",
+    name: "Rick & Morty App",
 
     tags: [
       {
@@ -170,8 +197,10 @@ const projects = [
       },
     ],
     image: rick,
-    source_code_link: "https://github.com/lakivr3/react-wiki",
+    video: "Rick_algyld.mp4",
+    link: "https://rick-morty-next-six.vercel.app",
+    source_code_link: "https://github.com/lakivr3/rick-morty-next",
   },
 ];
 
-export { services, projects };
+export { services, projects, reactnative };
