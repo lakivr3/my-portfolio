@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects, reactnative } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import "./Works.css";
 
 import { Cloudinary } from "@cloudinary/url-gen";
 import { AdvancedImage } from "@cloudinary/react";
@@ -28,18 +29,21 @@ const ProjectCard = ({
   video,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className=""
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-360px w-full"
+        className="bg-tertiary p-5 rounded-2xl  "
       >
-        <div className="relative w-[500px] h-[240px]  ">
+        <div className="  works">
           <button
-            className="relative group"
+            className="relative group "
             onClick={() => window.open(link, "_blank")}
           >
             <AdvancedImage
@@ -53,17 +57,17 @@ const ProjectCard = ({
                 .format("auto:image")}
             />
             <ReactPlayer
-              className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100  rounded-md "
+              className="absolute  inset-0 z-10 opacity-0 group-hover:opacity-100  rounded-md "
               url={`https://res.cloudinary.com/dpqa0z1g9/video/upload/e_preview:duration_10.0/q_auto/f_auto/${video}`}
-              width={500}
-              height={270}
+              width={window.innerWidth >= 600 ? 500 : 370}
+              height={window.innerWidth >= 600 ? 270 : 200}
               playing
               loop
               muted
             />
           </button>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row flex-wrap justify-between">
           <div>
             <div className="mt-10 ">
               <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -107,7 +111,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="w-full">
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Frontend projects</h2>
       </motion.div>
@@ -125,7 +129,10 @@ const Works = () => {
             <ProjectCard key={`project-${index}`} {...project} index={index} />
           );
         })}
-        <motion.div variants={fadeIn("", "", 0.1, 1)}>
+        <motion.div
+          variants={fadeIn("", "", 0.1, 1)}
+          className="flex flex-col "
+        >
           <motion.h2
             variants={fadeIn("", "", 0.1, 1)}
             className={`${styles.sectionHeadText} mt-10 flex`}
@@ -134,7 +141,7 @@ const Works = () => {
           </motion.h2>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-left"
           >
             Here you can check out some of my recent React Native projects.
           </motion.p>
@@ -143,7 +150,7 @@ const Works = () => {
             return (
               <motion.div
                 key={`project-${index}`}
-                className="w-[280px]"
+                className="w-[280px]  "
                 variants={fadeIn("", "", 0.1, 1)}
               >
                 <ProjectNativeCard

@@ -1,0 +1,24 @@
+.works {
+  position: relative;
+  justify-content: center;
+  width: 500px;
+  height: 240px;
+}
+@media screen and (max-width: 600px) {
+  .works {
+    width: 370px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .works {
+    width: 330px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .works {
+    width: 280px;
+    height: 130px;
+  }
+}
