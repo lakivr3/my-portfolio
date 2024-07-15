@@ -10,7 +10,11 @@ export const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        variants={
+          window.innerWidth <= 600
+            ? false
+            : fadeIn("right", "spring", 0.5 * index, 0.75)
+        }
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <motion.div
@@ -34,12 +38,12 @@ export const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={window.innerWidth <= 600 ? false : textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overiview</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={window.innerWidth <= 600 ? false : fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Passionate and dedicated frontend developer with a keen eye for detail

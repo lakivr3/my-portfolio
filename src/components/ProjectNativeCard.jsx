@@ -22,7 +22,9 @@ function ProjectNativeCard({
     },
   });
   return (
-    <motion.div variants={fadeIn("up", "spring")}>
+    <motion.div
+      variants={window.innerWidth <= 600 ? false : fadeIn("up", "spring")}
+    >
       <Tilt
         options={{
           max: 45,
