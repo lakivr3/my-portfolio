@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
 
           <p className={`${styles.heroSubText} mt-10 text-white-100`}>
-            Contact me bellow to work on your ideas!{" "}
+            Contact me below to work on your ideas!{" "}
           </p>
 
           <div className="logo">
