@@ -18,14 +18,13 @@ const cld = new Cloudinary({
   },
 });
 
-const shouldUseVariants = () => window.innerWidth >= 600;
+const shouldUseVariants = () => window.innerWidth >= 1380;
 
 const ProjectCard = ({
   index,
   name,
   description,
   tags,
-  image,
   source_code_link,
   link,
   video,
@@ -145,21 +144,23 @@ const Works = () => {
             Here you can check out some of my recent React Native projects.
           </motion.p>
 
-          {reactnative.map((native, index) => (
-            <motion.div
-              key={`project-${index}`}
-              className="w-[280px]"
-              {...(shouldUseVariants()
-                ? { variants: fadeIn("", "", 0.1, 1) }
-                : {})}
-            >
-              <ProjectNativeCard
+          <div className="flex flex-wrap sm:flex-nowrap gap-7 ">
+            {reactnative.map((native, index) => (
+              <motion.div
                 key={`project-${index}`}
-                {...native}
-                index={index}
-              />
-            </motion.div>
-          ))}
+                className={`${
+                  native.video === "chain4.mp4"
+                    ? "max-w-[500px]"
+                    : "max-w-[280px]"
+                } w-full`}
+                {...(shouldUseVariants()
+                  ? { variants: fadeIn("", "", 0.1, 1) }
+                  : {})}
+              >
+                <ProjectNativeCard {...native} index={index} />
+              </motion.div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </>

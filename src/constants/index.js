@@ -90,6 +90,31 @@ const reactnative = [
     image: bank,
     source_code_link: "https://github.com/lakivr3/MealsReactNative",
   },
+  {
+    name: "Chain4 - Mobile Game",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      { name: "ai", color: "red-text-gradient" },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "lootie",
+        color: "orange-text-gradient",
+      },
+    ],
+    video: "chain4.mp4",
+    image: bank,
+    source_code_link: "https://github.com/lakivr3/chain4",
+  },
 ];
 
 const projects = [
