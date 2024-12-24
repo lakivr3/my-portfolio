@@ -148,6 +148,31 @@ const projects = [
     image: mycubeimg,
     source_code_link: "https://github.com/lakivr3/mycubeV2",
   },
+  
+  {
+    name: "Termosol",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: "termosol.mp4",
+    link: "https://www.termosol-ama.com/",
+    source_code_link: "https://github.com/lakivr3/termosol",
+  },
   {
     name: "Netflix Clone",
     tags: [
