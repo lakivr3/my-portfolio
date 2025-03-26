@@ -113,7 +113,7 @@ const reactnative = [
     ],
     video: "chain4.mp4",
     image: bank,
-    source_code_link: "https://github.com/lakivr3/chain4",
+    source_code_link: "https://github.com/lakivr3/c4-mobilegame",
   },
 ];
 
