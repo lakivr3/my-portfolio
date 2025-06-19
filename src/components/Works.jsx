@@ -34,7 +34,7 @@ const ProjectCard = ({
     : {};
 
   return (
-    <motion.div {...motionProps}>
+    <div {...motionProps}>
       <Tilt
         options={{
           max: 45,
@@ -98,7 +98,7 @@ const ProjectCard = ({
           </div>
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
@@ -107,61 +107,61 @@ const Works = () => {
 
   return (
     <>
-      <motion.div {...motionProps} className="w-full">
+      <div {...motionProps} className="w-full">
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Frontend projects</h2>
-      </motion.div>
+      </div>
       <div className="w-full flex">
-        <motion.p
+        <p
           {...(shouldUseVariants() ? { variants: fadeIn("", "", 0.1, 1) } : {})}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Here you can check out some of my recent React and Next.js projects.
-        </motion.p>
+        </p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
-        <motion.div
+        <div
           {...(shouldUseVariants() ? { variants: fadeIn("", "", 0.1, 1) } : {})}
           className="flex flex-col"
         >
-          <motion.h2
+          <h2
             {...(shouldUseVariants()
               ? { variants: fadeIn("", "", 0.1, 1) }
               : {})}
             className={`${styles.sectionHeadText} mt-10 flex`}
           >
             React Native projects
-          </motion.h2>
-          <motion.p
+          </h2>
+          <p
             {...(shouldUseVariants()
               ? { variants: fadeIn("", "", 0.1, 1) }
               : {})}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-left"
           >
             Here you can check out some of my recent React Native projects.
-          </motion.p>
+          </p>
 
-          <div className="flex flex-wrap sm:flex-nowrap gap-7 ">
+          <div className="flex flex-wrap  gap-7 ">
             {reactnative.map((native, index) => (
-              <motion.div
+              <div
                 key={`project-${index}`}
                 className={`${
                   native.video === "chain4.mp4"
                     ? "max-w-[500px]"
                     : "max-w-[280px]"
-                } w-full`}
+                } w-full `}
                 {...(shouldUseVariants()
                   ? { variants: fadeIn("", "", 0.1, 1) }
                   : {})}
               >
                 <ProjectNativeCard {...native} index={index} />
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </>
   );

@@ -20,16 +20,16 @@ function ProjectNativeCard({
   });
 
   return (
-    <motion.div
-      variants={window.innerWidth <= 1400 ? false : fadeIn("up", "spring")}
-    >
+    <div variants={window.innerWidth <= 1400 ? false : fadeIn("up", "spring")}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:max-w-[500px] w-full mt-10"
+        className={`bg-tertiary p-5 rounded-2xl sm:max-w-[500px] w-full ${
+          video === "chain4.mp4" ? "" : "xs:h-[750px]"
+        }  mt-10`}
       >
         <div
           className={`relative ${
@@ -84,7 +84,7 @@ function ProjectNativeCard({
           </div>
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 }
 

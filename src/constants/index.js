@@ -87,8 +87,42 @@ const reactnative = [
       },
     ],
     video: "Meals_pkm4vd.mp4",
-    image: bank,
     source_code_link: "https://github.com/lakivr3/MealsReactNative",
+  },
+  {
+    name: "Bookworm",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      { name: "auth", color: "orange-text-gradient" },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    video: "Bookworm.mp4",
+    source_code_link: "https://github.com/lakivr3/bookworm-react-native",
+  },
+  {
+    name: "X&O Mobile Game",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    video: "IksOks.mp4",
+    source_code_link: "https://github.com/lakivr3/XO",
   },
   {
     name: "Chain4 - Mobile Game",
@@ -112,7 +146,6 @@ const reactnative = [
       },
     ],
     video: "chain4.mp4",
-    image: bank,
     source_code_link: "https://github.com/lakivr3/chain4",
   },
 ];
@@ -148,7 +181,95 @@ const projects = [
     image: mycubeimg,
     source_code_link: "https://github.com/lakivr3/mycubeV2",
   },
-  
+  {
+    name: "Slack Clone",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "convex",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "zustand",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "orange-text-gradient",
+      },
+    ],
+    video: "Slack-clone.mp4",
+    source_code_link: "https://github.com/lakivr3/slack-clone",
+  },
+  {
+    name: "Chat App",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "zustand",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "orange-text-gradient",
+      },
+    ],
+    video: "chat-app.mp4",
+    source_code_link: "https://github.com/lakivr3/chat-app-fe",
+  },
+  {
+    name: "Issue Tracker",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "orange-text-gradient",
+      },
+    ],
+    video: "issue-tracker.mp4",
+    source_code_link: "https://github.com/lakivr3/issue-tracker",
+  },
+
   {
     name: "Termosol",
     tags: [
@@ -199,6 +320,32 @@ const projects = [
     source_code_link: "https://github.com/lakivr3/netflix-clone",
   },
   {
+    name: "Rick & Morty App",
+
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tanstack",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: rick,
+    video: "Rick_algyld.mp4",
+    link: "https://rick-morty-next-six.vercel.app",
+    source_code_link: "https://github.com/lakivr3/rick-morty-next",
+  },
+  {
     name: "Restoraunt App",
     tags: [
       {
@@ -236,32 +383,6 @@ const projects = [
     video: "Weather_inyjbw",
     image: weather,
     source_code_link: "https://github.com/lakivr3/weather",
-  },
-  {
-    name: "Rick & Morty App",
-
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tanstack",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: rick,
-    video: "Rick_algyld.mp4",
-    link: "https://rick-morty-next-six.vercel.app",
-    source_code_link: "https://github.com/lakivr3/rick-morty-next",
   },
 ];
 
