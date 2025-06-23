@@ -13,6 +13,9 @@ import {
   tailwind,
   three,
   next,
+  nodejs,
+  git,
+  mongodb,
 } from "../assets";
 
 export const navLinks = [
@@ -66,6 +69,18 @@ const services = [
   {
     title: "Three.js",
     icon: three,
+  },
+  {
+    title: "Node.js",
+    icon: nodejs,
+  },
+  {
+    title: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    title: "Git",
+    icon: git,
   },
 ];
 const reactnative = [

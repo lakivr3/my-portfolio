@@ -23,6 +23,10 @@ import githublogo from "../assets/github-logo.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 
+import nodejs from "../assets/tech/nodejs.png";
+import mongodb from "../assets/tech/mongodb.png";
+import git from "../assets/tech/git.png";
+
 export {
   next,
   three,
@@ -46,4 +50,7 @@ export {
   githublogo,
   instagram,
   linkedin,
+  nodejs,
+  mongodb,
+  git,
 };

@@ -22,8 +22,9 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2  text-white-100 max-w-[750px]`}
           >
-            Experienced Frontend and Mobile Developer with extensive knowledge
-            in web and mobile technologies.{" "}
+            Full-Stack Developer with hands-on experience in web and mobile
+            technologies, focused on delivering efficient and user-friendly
+            solutions.{" "}
           </p>
 
           <p className={`${styles.heroSubText} mt-10 text-white-100`}>
